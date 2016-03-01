@@ -17,11 +17,10 @@ var shirt6 = new Myshop("DeadPool", "img/dead.png", 100,75)
 
 
 myArray.push(shirt1)
-myArray.push(shirt5)
 myArray.push(shirt2)
-myArray.push(shirt4)
-
 myArray.push(shirt3)
+myArray.push(shirt4)
+myArray.push(shirt5)
 myArray.push(shirt6)
 
 for (var i = 0; i < myArray.length ; i++) {
@@ -64,89 +63,65 @@ document.getElementById('childMaker').appendChild(newCol)
 }
 
 
-     document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[5].src ="img/dead2.png"
-       } 
+  document.querySelector('.thumbnail5').addEventListener("mouseover", function(event){
+     document.images[5].src ="img/dead2.png" 
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[5].src ="img/dead.png"
-   
-       } 
+     document.querySelector('.thumbnail5').addEventListener("mouseout", function(event){
+       document.images[5].src ="img/dead.png"
 	})
 
 
-     document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[4].src ="img/shirt3.5.png"
-       } 
+     document.querySelector('.thumbnail4').addEventListener("mouseover", function(event){ 	 
+        document.images[4].src ="img/shirt3.5.png"  
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[4].src ="img/shirt3.png"
-   
-       } 
+    document.querySelector('.thumbnail4').addEventListener("mouseout", function(event){   	 
+        document.images[4].src ="img/shirt3.png" 
 	})
 
 
-     document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[3].src ="img/shirt4.5.png"
-       } 
+      document.querySelector('.thumbnail3').addEventListener("mouseover", function(event){  	 
+        document.images[3].src ="img/shirt4.5.png"     
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[3].src ="img/shirt4.png"
-   
-       } 
+      document.querySelector('.thumbnail3').addEventListener("mouseout", function(event){ 	
+        document.images[3].src ="img/shirt4.png"   
 	})
-document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[2].src ="img/shirt2.5.png"
-       } 
+ 
+    document.querySelector('.thumbnail2').addEventListener("mouseover", function(event){
+        document.images[2].src ="img/shirt2.5.png"   
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[2].src ="img/shirt2.png"
-   
-       } 
+     document.querySelector('.thumbnail2').addEventListener("mouseout", function(event){
+       document.images[2].src ="img/shirt2.png"   
 	})
 
-document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[1].src ="img/shirt6.5.png"
-       } 
+ document.querySelector('.thumbnail1').addEventListener("mouseover", function(event){
+    document.images[1].src ="img/shirt5.5.png"     
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[1].src ="img/shirt6.png"
-   
-       } 
+     document.querySelector('.thumbnail1').addEventListener("mouseout", function(event){
+      document.images[1].src ="img/shirt5.png"
 	})
-document.getElementById("body").addEventListener("mouseover", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[0].src ="img/shirt1.5.png"
-       } 
+
+ document.querySelector('.thumbnail0').addEventListener("mouseover", function(event){
+       document.images[0].src ="img/shirt1.5.png"    
 	})
 
 
-     document.getElementById("body" ).addEventListener("mouseout", function(event){
-     	  if (event.target.tagName.toLowerCase() === 'img') {
-        document.images[0].src ="img/shirt1.png"
-   
-       } 
+     document.querySelector('.thumbnail0').addEventListener("mouseout", function(event){   	  
+        document.images[0].src ="img/shirt1.png" 
 	})
+
+
+
+
 
 
 
